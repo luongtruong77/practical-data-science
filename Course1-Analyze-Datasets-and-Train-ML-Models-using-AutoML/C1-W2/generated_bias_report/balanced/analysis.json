@@ -1,0 +1,731 @@
+{
+    "version": "1.0",
+    "pre_training_bias_metrics": {
+        "label": "sentiment",
+        "facets": {
+            "product_category": [
+                {
+                    "value_or_threshold": "Blouses",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Dresses",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Fine gauge",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Intimates",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Jackets",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Jeans",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Knits",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Layering",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Legwear",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Lounge",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Outerwear",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Pants",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Shorts",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Skirts",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Sleep",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Sweaters",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Swim",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                },
+                {
+                    "value_or_threshold": "Trend",
+                    "metrics": [
+                        {
+                            "name": "CI",
+                            "description": "Class Imbalance (CI)",
+                            "value": 0.8888888888888888
+                        },
+                        {
+                            "name": "DPL",
+                            "description": "Difference in Positive Proportions in Labels (DPL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "JS",
+                            "description": "Jensen-Shannon Divergence (JS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KL",
+                            "description": "Kullback-Liebler Divergence (KL)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "KS",
+                            "description": "Kolmogorov-Smirnov Distance (KS)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "LP",
+                            "description": "L-p Norm (LP)",
+                            "value": 0.0
+                        },
+                        {
+                            "name": "TVD",
+                            "description": "Total Variation Distance (TVD)",
+                            "value": 0.0
+                        }
+                    ]
+                }
+            ]
+        },
+        "label_value_or_threshold": "1"
+    }
+}
