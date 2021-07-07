@@ -1,0 +1,28 @@
+{
+    "label": "sentiment",
+    "headers": [
+        "sentiment",
+        "review_body"
+    ],
+    "dataset_type": "text/csv",
+    "methods": {
+        "shap": {
+            "baseline": [
+                [
+                    ""
+                ]
+            ],
+            "num_samples": 2048,
+            "agg_method": "mean_abs",
+            "use_logit": true
+        },
+        "report": {
+            "name": "explainability-report",
+            "title": "Explainability Report"
+        }
+    },
+    "predictor": {
+        "label": 0,
+        "probability": 1
+    }
+}
