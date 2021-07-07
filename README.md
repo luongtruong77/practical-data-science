@@ -2,6 +2,7 @@
 ---
 
 **This repo contains materials from the [Deeplearning.AI's Practical Data Science Specialization](https://www.coursera.org/specializations/practical-data-science?) offered by Coursera.**
+Focuses on NLP, BERT, AutoML, ML Models Optimization and Deployment using AWS Sagemaker.
 
 ---
 ### About this Specialization
